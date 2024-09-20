@@ -21,7 +21,7 @@
 
 `timescale 1ns/1ps
 module Lab1_Q3_tb;
-wire y; //output 
+wire [1:0] y; //output 
 reg [1:0] i0,i1,i2,i3,s; //input
  
 // Instantiate original module (named DUT {device under test}) 

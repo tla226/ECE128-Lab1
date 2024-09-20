@@ -26,7 +26,7 @@ module Lab1_Q3(
     input [1:0] i2,
     input [1:0] i3,
     input [1:0] s,
-    output reg y
+    output reg [1:0] y
     );
     
     always @(i0 or i1 or i2 or i3 or s)
